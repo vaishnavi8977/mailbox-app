@@ -1,5 +1,7 @@
 package com.mailbox.email;
 
+import java.nio.file.Path;
+
 import com.codahale.metrics.ConsoleReporter.Builder;
 
 import org.springframework.boot.SpringApplication;
