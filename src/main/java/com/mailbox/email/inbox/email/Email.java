@@ -1,6 +1,7 @@
 package com.mailbox.email.inbox.email;
 import java.util.List;
 import java.util.UUID;
+
 import org.springframework.data.annotation.Id;
 import org.springframework.data.cassandra.core.cql.PrimaryKeyType;
 import org.springframework.data.cassandra.core.mapping.CassandraType;
