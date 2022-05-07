@@ -1,5 +1,4 @@
 package com.mailbox.email.inbox.controllers;
-
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -64,5 +63,4 @@ public class InboxPageController {
         return "index";
 
     }
-
 }
