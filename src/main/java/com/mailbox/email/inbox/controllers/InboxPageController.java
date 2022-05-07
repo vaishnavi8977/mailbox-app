@@ -1,5 +1,6 @@
 package com.mailbox.email.inbox.controllers;
 
+<<<<<<< main
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -13,13 +14,23 @@ import com.mailbox.email.inbox.folders.FoldersService;
 import com.nimbusds.oauth2.sdk.util.StringUtils;
 
 import org.ocpsoft.prettytime.PrettyTime;
+=======
+import com.mailbox.email.inbox.folders.Folder;
+import com.mailbox.email.inbox.folders.FolderRepository;
+
+>>>>>>> master
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.oauth2.core.user.OAuth2User;
 import org.springframework.stereotype.Controller;
+<<<<<<< main
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+=======
+import org.springframework.util.StringUtils;
+import org.springframework.web.bind.annotation.GetMapping;
+>>>>>>> master
 
 @Controller
 public class InboxPageController {
@@ -65,4 +76,10 @@ public class InboxPageController {
 
     }
 
+<<<<<<< main
 }
+=======
+    
+
+}
+>>>>>>> master
